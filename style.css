@@ -249,13 +249,4 @@ body {
         z-index: 5;
         height: 25.4px;
     }
-    .minibox {
-        position: fixed;
-        top: 0;
-        display: flex;
-        width: 64px;
-        height: 100lvh;
-        z-index: 2;
-        background-color: #0B3954;
-    }
 } 
