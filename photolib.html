@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="bigwrap">
+        <div class="headerone">
+        <div class="boxbox">
+            <div class="cent">
+                <div class="cent">
+                    <img onclick="mouse()" id="logo" src="photos/mothicon.png">
+                </div>
+            </div>
+            <a href="index.html">home</a>
+            <a href="cosplans.html">cosplans</a>
+            <a href="planning.html">planning</a>
+            <div class="drop">
+            <a class="cosplay" href="cosplays.html">cosplays</a>
+            <div class="cosplays">
+            <a href="clove.html">clove</a>
+            <a href="aiohto.html">ai ohto</a>
+            </div>
+            <a href="socials.html">socials</a>
+            </div>
+            <div class="minibox"></div>
+        </div>
+    </div>
+        <div class="bigwrap">
+        <div class="wrap">
+        <div class="headertwo">
+        <div class="menu">
+            <span class="menuline1"></span>
+            <span class="menuline2"></span>
+            <span class="menuline3"></span>
+        </div>
+        <div class="slit">
+        <div class="navtwoback">
+            <div class="navtwo">
+                    <a href="index.html">home</a>
+                    <a href="cosplans.html">cosplans</a>
+                    <a href="planning.html">planning</a>
+                    <a href="cosplays.html">cosplays</a>
+                    <div class="gone">
+                        <a href="clove.html">clove</a>
+                        <a href="aiohto.html">ai ohto</a>
+                    </div>
+                    <a href="socials.html">socials</a>
+            </div>
+        </div>
+        <div class="cent">
+            <img onclick="mouse()" id="logo" src="photos/mothicon.png">
+        </div>
+        </div>
+    </div>
+            <div class="mainmoth">
+                <div class="text">
+                        <img src="photos/animals-worm.gif">
+                        <img src="photos/boneborder.gif">
+                        <img src="photos/bones.gif">
+                        <img src="photos/cloveborder.png">
+                        <img src="photos/clover.gif">
+                        <img src="photos/crystalcluster.gif">
+                        <img src="photos/dandelions.png">
+                        <img src="photos/danganronpa-rantaro.gif">
+                        <img src="photos/dinoskull.png">
+                        <img src="photos/gemborder.png">
+                        <img src="photos/gemheart.gif">
+                        <img src="photos/icicles.gif">
+                        <img src="photos/kaito-momota.gif">
+                        <img src="photos/kokichi-sprite.gif">
+                        <img src="photos/lazyskeleton.gif">
+                        <img src="photos/leafeon.gif">
+                        <img src="photos/makoto-kagutsuchi-makoto.gif">
+                        <img src="photos/mooncycle.gif">
+                        <img src="photos/pearac.gif">
+                        <img src="photos/purplecrystal.png">
+                        <img src="photos/purplesparkle.gif">
+                        <img src="photos/sableeye.gif">
+                        <img src="photos/shuichi.gif">
+                        <img src="photos/skeletoncage.gif">
+                        <img src="photos/sparkle.gif">
+                        <img src="photos/sparkleborder.gif">
+                        <img src="photos/sparkleheart.gif">
+                        <img src="photos/spinningstar.gif">
+                        <img src="photos/teethborder.png">
+                        <img src="photos/titlecardaf.png">
+                </div>
+            </div>
+            <footer class="under"></footer>
+        </div>
+    </div>
+    <script>
+        const menu = document.querySelector('.menu');
+        const navtwo = document.querySelector('.navtwoback');
+        const cosplay = document.querySelector('.cosplay');
+        const cosplays = document.querySelector('.cosplays');
+
+        menu.addEventListener('click', () => {
+            navtwo.classList.toggle('active');
+        })
+
+        cosplay.addEventListener('mouseover', () => {
+            cosplays.classList.toggle('active');
+        });
+    </script>
+    
+    </body>
+</html>
